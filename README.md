@@ -1,4 +1,6 @@
 # Ginkgo Puzzle Enumeration
+![An example Ginkgo Puzzle board layout](GinkgoBoard.jpg)
+
 Calculates the number of valid board layouts in the 25-piece Ginkgo Puzzle, by enumerating all possible puzzle layouts and skipping ones that have overlapping pieces. NOTE: This program took about 1 day to run to completion on a PC with 16GB ram and an Intel Core i7 2.8GHz processor. This is my first Python program in a long time, and I have not made any attempt to optimize it.
 
 I created a 3D printable combination puzzle I call the Ginkgo Puzzle. The 3D printable version is at [Cults3D: Ginkgo Combination Puzzle](https://cults3d.com/en/3d-model/game/ginkgo-combination-puzzle). Once I created the puzzle, I immediately wondered how many unique board positions there are, and whether that number is small enough to allow a brute-force analysis of questions such as "Is it possible to get from any arbitrary board layout to any other via legal moves?"
