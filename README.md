@@ -7,6 +7,8 @@ I created a 3D printable combination puzzle I call the Ginkgo Puzzle. The 3D pri
 
 The upshot: This program says there are 5,435,817,984 unique board layouts. That number seems far too large for me to naively create a matrix of board positions and arcs between them that represent valid moves.
 
+There are far fewer board layouts that can be achieved by rotating pieces from the starting layout (all pieces pointing North). For example, see ImpossibleLayout.jpg.
+
 Files:
 - Diary.odt = A LibreOffice diary of the project.
 - Enumeration.py = A Python 3 program to enumerate the number of valid boards.
