@@ -1,60 +1,66 @@
-validBoards (* 4) = 5435817984
-         -968170854 function calls (779702790 primitive calls) in 82921.085 seconds
+905700 K
+905800 K
+905900 K
+906000 K
+906100 K
+906200 K
+validBoards (* 4) = 3625093120
+         884065699 function calls (-874984849 primitive calls) in 65285.334 seconds
 
    Ordered by: standard name
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-        1    0.000    0.000 82921.084 82921.084 <string>:1(<module>)
-1358954496 1583.359    0.000 2044.131    0.000 Enumeration.py:128(recordValidBoard)
-457589332 41902.040    0.000 62968.723    0.000 Enumeration.py:138(pieceOverlaps)
--1747873643/1 15981.229   -0.000 82921.047 82921.047 Enumeration.py:199(placePiece)
-        1    0.000    0.000 82921.084 82921.084 Enumeration.py:235(walkBoards)
--649675719 9245.678   -0.000 9245.678   -0.000 Enumeration.py:63(indexOfCoord)
-   380541    0.341    0.000    0.341    0.000 rpc.py:153(debug)
-    54363    0.451    0.000  457.645    0.008 rpc.py:216(remotecall)
-    54363    1.134    0.000   14.962    0.000 rpc.py:226(asynccall)
-    54363    0.938    0.000  442.173    0.008 rpc.py:246(asyncreturn)
-    54363    0.062    0.000    0.062    0.000 rpc.py:252(decoderesponse)
-    54363    0.352    0.000  441.087    0.008 rpc.py:290(getresponse)
-    54363    0.160    0.000    0.282    0.000 rpc.py:298(_proxify)
-    54363    2.628    0.000  440.453    0.008 rpc.py:306(_getresponse)
-    54363    0.131    0.000    0.131    0.000 rpc.py:328(newseq)
-    54363    1.445    0.000   11.855    0.000 rpc.py:332(putmessage)
-    54362    0.436    0.000    0.688    0.000 rpc.py:559(__getattr__)
-    54363    0.777    0.000    1.743    0.000 rpc.py:57(dumps)
-        1    0.000    0.000    0.002    0.002 rpc.py:577(__getmethods)
-    54362    0.140    0.000    0.140    0.000 rpc.py:601(__init__)
-    54362    0.204    0.000  457.846    0.008 rpc.py:606(__call__)
-   108724    0.090    0.000    0.090    0.000 run.py:420(encoding)
-   108724    0.079    0.000    0.079    0.000 run.py:424(errors)
-    54362    1.515    0.000  460.454    0.008 run.py:441(write)
-   108726    0.288    0.000    0.407    0.000 threading.py:1318(current_thread)
-    54363    0.687    0.000    1.582    0.000 threading.py:228(__init__)
-    54363    0.910    0.000  437.321    0.008 threading.py:280(wait)
-    54363    0.895    0.000    0.895    0.000 threading.py:82(RLock)
-    54363    0.144    0.000    0.144    0.000 {built-in method _struct.pack}
-    54363    0.559    0.000    0.559    0.000 {built-in method _thread.allocate_lock}
-   108726    0.119    0.000    0.119    0.000 {built-in method _thread.get_ident}
-1357759136 12772.497    0.000 12772.497    0.000 {built-in method builtins.abs}
-        1    0.000    0.000 82921.085 82921.085 {built-in method builtins.exec}
-   108726    0.122    0.000    0.122    0.000 {built-in method builtins.isinstance}
--1747710554  975.581   -0.000  975.581   -0.000 {built-in method builtins.len}
-    13591    0.356    0.000  460.810    0.034 {built-in method builtins.print}
-    54363    1.786    0.000    1.786    0.000 {built-in method select.select}
-    54363    0.316    0.000    0.316    0.000 {method '_acquire_restore' of '_thread.RLock' objects}
-    54363    0.046    0.000    0.046    0.000 {method '_is_owned' of '_thread.RLock' objects}
-    54363    0.137    0.000    0.137    0.000 {method '_release_save' of '_thread.RLock' objects}
-    54363    0.137    0.000    0.137    0.000 {method 'acquire' of '_thread.RLock' objects}
-   108726  435.303    0.004  435.303    0.004 {method 'acquire' of '_thread.lock' objects}
-    54363    0.049    0.000    0.049    0.000 {method 'append' of 'collections.deque' objects}
-    54362    0.102    0.000    0.102    0.000 {method 'decode' of 'bytes' objects}
+        1    0.000    0.000 65285.334 65285.334 <string>:1(<module>)
+906273280  997.373    0.000 1324.048    0.000 Enumeration.py:177(recordValidBoard)
+-883858220 32340.412   -0.000 51730.605   -0.000 Enumeration.py:194(isPieceDirectionLegal)
+1759050549/1 10942.822    0.000 65285.292 65285.292 Enumeration.py:346(placePiece)
+        1    0.000    0.000 65285.334 65285.334 Enumeration.py:389(walkBoards)
+-1810672927 7936.540   -0.000 7936.540   -0.000 Enumeration.py:64(indexOfCoord)
+-847744360 12068.059   -0.000 12068.059   -0.000 Enumeration.py:71(isOnBoard)
+   253785    0.236    0.000    0.236    0.000 rpc.py:153(debug)
+    36255    0.278    0.000  324.610    0.009 rpc.py:216(remotecall)
+    36255    0.734    0.000    9.795    0.000 rpc.py:226(asynccall)
+    36255    0.632    0.000  314.498    0.009 rpc.py:246(asyncreturn)
+    36255    0.042    0.000    0.042    0.000 rpc.py:252(decoderesponse)
+    36255    0.234    0.000  313.763    0.009 rpc.py:290(getresponse)
+    36255    0.110    0.000    0.193    0.000 rpc.py:298(_proxify)
+    36255    1.847    0.000  313.336    0.009 rpc.py:306(_getresponse)
+    36255    0.085    0.000    0.085    0.000 rpc.py:328(newseq)
+    36255    0.958    0.000    7.728    0.000 rpc.py:332(putmessage)
+    36254    0.290    0.000    0.462    0.000 rpc.py:559(__getattr__)
+    36255    0.540    0.000    1.160    0.000 rpc.py:57(dumps)
+        1    0.000    0.000    0.003    0.003 rpc.py:577(__getmethods)
+    36254    0.097    0.000    0.097    0.000 rpc.py:601(__init__)
+    36254    0.138    0.000  324.745    0.009 rpc.py:606(__call__)
+    72508    0.057    0.000    0.057    0.000 run.py:420(encoding)
+    72508    0.045    0.000    0.045    0.000 run.py:424(errors)
+    36254    1.008    0.000  326.475    0.009 run.py:441(write)
+    72510    0.192    0.000    0.271    0.000 threading.py:1318(current_thread)
+    36255    0.474    0.000    1.069    0.000 threading.py:228(__init__)
+    36255    0.631    0.000  311.155    0.009 threading.py:280(wait)
+    36255    0.595    0.000    0.595    0.000 threading.py:82(RLock)
+    36255    0.095    0.000    0.095    0.000 {built-in method _struct.pack}
+    36255    0.367    0.000    0.367    0.000 {built-in method _thread.allocate_lock}
+    72510    0.079    0.000    0.079    0.000 {built-in method _thread.get_ident}
+        1    0.000    0.000 65285.334 65285.334 {built-in method builtins.exec}
+    72510    0.083    0.000    0.083    0.000 {built-in method builtins.isinstance}
+1759159314  673.485    0.000  673.485    0.000 {built-in method builtins.len}
+     9064    0.240    0.000  326.716    0.036 {built-in method builtins.print}
+    36255    1.139    0.000    1.139    0.000 {built-in method select.select}
+    36255    0.213    0.000    0.213    0.000 {method '_acquire_restore' of '_thread.RLock' objects}
+    36255    0.029    0.000    0.029    0.000 {method '_is_owned' of '_thread.RLock' objects}
+    36255    0.092    0.000    0.092    0.000 {method '_release_save' of '_thread.RLock' objects}
+    36255    0.090    0.000    0.090    0.000 {method 'acquire' of '_thread.RLock' objects}
+    72510  309.792    0.004  309.792    0.004 {method 'acquire' of '_thread.lock' objects}
+    36255    0.032    0.000    0.032    0.000 {method 'append' of 'collections.deque' objects}
+    36254    0.068    0.000    0.068    0.000 {method 'decode' of 'bytes' objects}
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
-    54363    0.906    0.000    0.906    0.000 {method 'dump' of '_pickle.Pickler' objects}
-    54362    0.134    0.000    0.134    0.000 {method 'encode' of 'str' objects}
-    54362    0.110    0.000    0.110    0.000 {method 'get' of 'dict' objects}
-    54363    0.060    0.000    0.060    0.000 {method 'getvalue' of '_io.BytesIO' objects}
-    54363    0.054    0.000    0.054    0.000 {method 'release' of '_thread.RLock' objects}
-    54363    6.596    0.000    6.596    0.000 {method 'send' of '_socket.socket' objects}
+    36255    0.582    0.000    0.582    0.000 {method 'dump' of '_pickle.Pickler' objects}
+    36254    0.089    0.000    0.089    0.000 {method 'encode' of 'str' objects}
+    36254    0.072    0.000    0.072    0.000 {method 'get' of 'dict' objects}
+    36255    0.038    0.000    0.038    0.000 {method 'getvalue' of '_io.BytesIO' objects}
+    36255    0.036    0.000    0.036    0.000 {method 'release' of '_thread.RLock' objects}
+    36255    4.280    0.000    4.280    0.000 {method 'send' of '_socket.socket' objects}
 
 
 >>> 
